@@ -1,0 +1,163 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <ScrollView
+    android:id="@+id/contactus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+      android:id="@+id/content_container"
+      android:layout_width="match_parent"
+      android:layout_height="812dp">
+
+
+      <RelativeLayout
+        android:id="@+id/page_contactus_ek1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+
+        <ImageView
+          android:id="@+id/undraw_podcast_q6p7"
+          android:layout_width="match_parent"
+          android:layout_height="254dp"
+          android:layout_marginTop="159dp"
+          android:contentDescription="undraw_podcast_q6p7"
+          android:src="@drawable/undraw_podcast_q6p7" />
+
+
+        <RelativeLayout
+          android:id="@+id/group_33"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="0dp"
+          android:layout_marginTop="65dp">
+
+          <ImageView
+            android:id="@+id/path_239_ek16"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="-6dp"
+            android:contentDescription="path_239_ek16"
+            android:src="@drawable/path_239_ek16" />
+
+        </RelativeLayout>
+
+        <TextView
+          android:id="@+id/contact_us_ek1"
+          android:layout_width="125dp"
+          android:layout_height="38dp"
+          android:layout_gravity="center_horizontal|center"
+          android:layout_marginLeft="124dp"
+          android:layout_marginTop="21dp"
+          android:fontFamily="FontAwesome"
+          android:gravity="center"
+          android:shadowColor="#704d4d"
+          android:shadowDx="0"
+          android:shadowDy="3"
+          android:shadowRadius="2"
+          android:text="@string/contact_us_ek1_string"
+          android:textColor="@color/forgot_password_ek3_color"
+          android:textSize="25sp" />
+
+
+        <RelativeLayout
+          android:id="@+id/backward_arrow_ek15"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="34dp"
+          android:layout_marginTop="33dp">
+
+          <ImageView
+            android:id="@+id/path_10_ek17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="path_10_ek17"
+            android:src="@drawable/path_10_ek17" />
+
+        </RelativeLayout>
+
+        <TextView
+          android:id="@+id/join_the_discussions_in_the_chat_room_or__at_gitlab___"
+          android:layout_width="match_parent"
+          android:layout_height="152dp"
+          android:layout_gravity="center_horizontal|center"
+          android:layout_marginTop="423dp"
+          android:layout_centerHorizontal="true"
+          android:gravity="center"
+          android:shadowColor="#704d4d"
+          android:shadowDx="0"
+          android:shadowDy="3"
+          android:shadowRadius="2"
+          android:text="@string/join_the_discussions_in_the_chat_room_or__at_gitlab____string"
+          android:textColor="@color/forgot_password_ek3_color"
+          android:textSize="25sp" />
+
+
+        <RelativeLayout
+          android:id="@+id/continue_ek11"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="598dp">
+
+          <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_gitter_room"
+            android:layout_width="314dp"
+            android:layout_height="49dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/aossie_s_gitter_room_string"
+            android:textColor="@color/authentication_color" />
+
+          <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_gitlab"
+            android:layout_width="314dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/btn_gitter_room"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:background="@color/rectangle_119_color"
+            android:text="@string/aossie_s_gitlab_string"
+            android:textColor="@color/authentication_color" />
+
+        </RelativeLayout>
+
+      </RelativeLayout>
+
+
+      <ImageView
+        android:id="@+id/undraw_file_sync_ot38"
+        android:layout_width="271dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="-3633dp"
+        android:layout_marginLeft="-3633dp"
+        android:layout_marginTop="-663dp"
+        android:contentDescription="undraw_file_sync_ot38"
+        android:src="@drawable/undraw_file_sync_ot38" />
+
+      <ImageView
+        android:id="@+id/undraw_empty_xct9_ek1"
+        android:layout_width="264dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="-3048dp"
+        android:layout_marginLeft="-3048dp"
+        android:layout_marginTop="-674dp"
+        android:contentDescription="undraw_empty_xct9_ek1"
+        android:src="@drawable/undraw_empty_xct9_ek1" />
+
+    </RelativeLayout>
+
+  </ScrollView>
+</ScrollView>

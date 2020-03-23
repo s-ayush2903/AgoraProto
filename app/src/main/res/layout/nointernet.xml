@@ -1,0 +1,112 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		intro2
+	 *	@date 		0
+	 *	@title 		Intro2
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.8.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/nointernet" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="812dp" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_nointernet_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__nointernet_ek2"
+					android:background="@drawable/_bg__nointernet_ek2_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="375dp"
+					android:layout_height="812dp" />
+
+				<ImageView android:id="@+id/_404err"
+					android:src="@drawable/_404err"
+					android:contentDescription="_404err"
+					 android:layout_marginLeft="4dp"
+					 android:layout_marginStart="4dp"
+					android:layout_marginTop="236dp"
+					android:layout_width="369dp"
+					android:layout_height="209dp" />
+
+
+				<RelativeLayout android:id="@+id/_____text___h2___selected___on_surface___high_emphasis___left"
+					android:layout_marginTop="513dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/_____text___h2___selected___on_surface___high_emphasis___left_ek1"
+						android:fontFamily="Roboto"
+						android:alpha="0.87058823529412"
+						 android:textSize="31sp"
+						android:textColor="@color/john_doe_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="320dp"
+						android:layout_height="46dp"
+						android:text="@string/_____text___h2___selected___on_surface___high_emphasis___left_ek1_string"
+						 />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+			<ImageView android:id="@+id/undraw_file_sync_ot38"
+				android:src="@drawable/undraw_file_sync_ot38"
+				android:contentDescription="undraw_file_sync_ot38"
+				 android:layout_marginLeft="-3633dp"
+				 android:layout_marginStart="-3633dp"
+				android:layout_marginTop="-663dp"
+				android:layout_width="271dp"
+				android:layout_height="184dp" />
+
+			<ImageView android:id="@+id/undraw_empty_xct9_ek1"
+				android:src="@drawable/undraw_empty_xct9_ek1"
+				android:contentDescription="undraw_empty_xct9_ek1"
+				 android:layout_marginLeft="-3048dp"
+				 android:layout_marginStart="-3048dp"
+				android:layout_marginTop="-674dp"
+				android:layout_width="264dp"
+				android:layout_height="200dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
