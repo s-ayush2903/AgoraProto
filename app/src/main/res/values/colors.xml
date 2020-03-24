@@ -6,7 +6,7 @@
   <color name="colorPrimaryDark">#00574B</color>
   <color name="colorAccent">#D81B60</color>
 
-  <color name="_bg__intro2_ek2_color">#ffffff</color>
+  <color name="whiteColor">#ffffff</color>
   <color name="this_is_another_sample_fomt_and_atexccljgtdkl_color">#2699fb</color>
   <color name="rectangle_68_color">#f7f7f7</color>
   <color name="ellipse_8_color">#68fb26</color>

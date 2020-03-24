@@ -30,7 +30,7 @@ public class ContactUsFragment extends Fragment {
   @Nullable
   @Override
   public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-    View rootView = inflater.inflate(R.layout.contactus, container, false);
+    View rootView = inflater.inflate(R.layout.fragment_contact_us, container, false);
     return rootView;
 	/*
 		_bg__contactus_ek2 = (View) findViewById(R.id._bg__contactus_ek2);
@@ -45,9 +45,6 @@ public class ContactUsFragment extends Fragment {
 		rectangle_119_ek9 = (View) findViewById(R.id.rectangle_119_ek9);
 		aossie_s_gitlab = (TextView) findViewById(R.id.aossie_s_gitlab);
 	*/
-
-    //custom code goes here
-
   }
 }
 	

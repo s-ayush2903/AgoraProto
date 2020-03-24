@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".CreateElection1Fragment">
+
+  <RelativeLayout
+    android:id="@+id/content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This is the back button that comes in the toolbar from here to      -->
+    <RelativeLayout
+      android:id="@+id/backward_arrow_ek5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="30dp">
+
+      <ImageView
+        android:id="@+id/path_10_ek7"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="path_10_ek7"
+        android:src="@drawable/path_10_ek7" />
+    </RelativeLayout>
+    <!--Here-->
+
+    <!--The following is the textView at the Top(toolbar wala) -->
+    <TextView
+      android:id="@+id/create_el_1_tv"
+      android:layout_width="141dp"
+      android:layout_height="38dp"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center_horizontal|center"
+      android:layout_marginTop="21dp"
+      android:fontFamily="@font/font_awesome"
+      android:gravity="center"
+      android:shadowColor="#704d4d"
+      android:shadowDx="0"
+      android:shadowDy="3"
+      android:shadowRadius="2"
+      android:text="@string/election_info_string"
+      android:textColor="@color/forgot_password_ek3_color"
+      android:textSize="25sp" />
+
+
+    <!-- The very first TIL of the screen from here to   -->
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/election_name_til"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/create_el_1_tv"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="24dp"
+      android:hint="Election Name"
+      app:boxCornerRadiusBottomEnd="0dp"
+      app:boxCornerRadiusBottomStart="0dp"
+      app:boxCornerRadiusTopEnd="0dp"
+      app:boxCornerRadiusTopStart="0dp"
+      app:boxStrokeColor="@color/dashboard_ek4_color">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--here-->
+
+
+    <!--TIL for election description from here -->
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/election_desc_til"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/election_name_til"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="24dp"
+      android:hint="Election Description"
+      app:boxCornerRadiusBottomEnd="0dp"
+      app:boxCornerRadiusBottomStart="0dp"
+      app:boxCornerRadiusTopEnd="0dp"
+      app:boxCornerRadiusTopStart="0dp"
+      app:boxStrokeColor="@color/dashboard_ek4_color">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="128dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--Here -->
+
+    <!--Put date and time pickers here-->
+    <!--Picker #1-->
+    <!--Start date picker from here to-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/start_date_til"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/election_desc_til"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="24dp"
+      android:hint="Start Date"
+      app:boxCornerRadiusBottomEnd="0dp"
+      app:boxCornerRadiusBottomStart="0dp"
+      app:boxCornerRadiusTopEnd="0dp"
+      app:boxCornerRadiusTopStart="0dp"
+      app:boxStrokeColor="@color/dashboard_ek4_color">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--Here-->
+    <ImageButton
+      android:id="@+id/start_date_ibtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/election_desc_til"
+      android:layout_alignParentRight="true"
+      android:layout_marginTop="26dp"
+      android:layout_marginEnd="32dp"
+      android:background="none"
+      android:contentDescription="datePicker"
+      app:srcCompat="@drawable/ic_date_range_50dp" />
+
+    <!--   Picker #2 -->
+    <!--Start date picker from here to-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/end_date_til"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/start_date_til"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="24dp"
+      android:hint="End Date"
+      app:boxCornerRadiusBottomEnd="0dp"
+      app:boxCornerRadiusBottomStart="0dp"
+      app:boxCornerRadiusTopEnd="0dp"
+      app:boxCornerRadiusTopStart="0dp"
+      app:boxStrokeColor="@color/dashboard_ek4_color">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+      android:id="@+id/end_date_ibtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/start_date_ibtn"
+      android:layout_alignParentRight="true"
+      android:layout_marginTop="26dp"
+      android:layout_marginEnd="32dp"
+      android:background="none"
+      android:contentDescription="datePicker"
+      app:srcCompat="@drawable/ic_date_range_50dp" />
+
+    <!--Here-->
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <!--Progress bars-->
+      <RelativeLayout
+        android:id="@+id/group_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="567dp">
+
+        <ImageView
+          android:id="@+id/path_240_ek1"
+          android:layout_width="62dp"
+          android:layout_height="4dp"
+          android:contentDescription="path_240_ek1"
+          android:src="@drawable/path_240_ek1" />
+
+        <View
+          android:id="@+id/rectangle_1032_ek1"
+          android:layout_width="62dp"
+          android:layout_height="4dp"
+          android:layout_marginStart="184dp"
+          android:layout_marginTop="0dp"
+          android:background="@drawable/rectangle_1032_ek1_shape" />
+
+        <View
+          android:id="@+id/rectangle_1033_ek1"
+          android:layout_width="62dp"
+          android:layout_height="4dp"
+          android:layout_marginStart="275dp"
+          android:layout_marginTop="0dp"
+          android:background="@drawable/rectangle_1033_ek1_shape" />
+
+        <ImageView
+          android:id="@+id/path_241_ek1"
+          android:layout_width="62dp"
+          android:layout_height="4dp"
+          android:layout_marginStart="91dp"
+          android:layout_marginTop="0dp"
+          android:src="@drawable/path_241_ek1" />
+
+      </RelativeLayout>
+      <!--Till here-->
+      <!--Insert the right arrow key button in thhe layout below and remove the whole relative one from here to  -->
+      <!-- This is the next jaisa icon at bottom right of the screen   -->
+      <ImageView
+        android:id="@+id/path_36_ek2"
+        android:layout_width="23dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/group_8"
+        android:layout_marginStart="351dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/path_36_ek2" />
+      <!--    this is unconstrained/unbounded so is present at top left 0,0-->
+      <!--here-->
+      <ImageView
+        android:id="@+id/path_36_ek3"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/group_8"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="59dp"
+        android:contentDescription="path_36_ek3"
+        android:src="@drawable/path_36_ek3" />
+
+    </RelativeLayout>
+  </RelativeLayout>
+</LinearLayout>
